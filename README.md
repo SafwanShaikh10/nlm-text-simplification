@@ -1,18 +1,14 @@
-# Neural Language Model for Text Simplification
+# ClearText: Simplifying Complexity Through Neural Models
 
-This repository contains the evaluation and analysis framework for a neural language model (NLM) dedicated to automatic text simplification. It provides tools for measuring model performance across various linguistic and classification metrics.
+Knowledge should be accessible to everyone. ClearText is a research project and evaluation framework focused on the "translation" of complex technical language into simple, easy-to-understand terms using neural language models.
 
-## Features
-- Performance Metrics: Detailed calculation of token-level accuracy and classification scores.
-- Visualization Suite: Includes ROC-AUC curves and confusion matrix generation for error analysis.
-- Simplification Analysis: Tools for evaluating the semantic and structural changes made by the model.
+## The Goal
+Many scientific and legal documents are difficult for the general public to understand. This project provides the tools to train and evaluate models that can break down complex sentences into their simplest forms without losing the core meaning.
 
-## Technology Stack
-- Python
-- Scikit-learn (Evaluation Metrics)
-- Matplotlib / Seaborn (Visualization)
+## Evaluation Toolkit
+- Comprehensive Metrics: Goes beyond simple accuracy to measure token-level changes and semantic retention.
+- Error Analysis: Integrated confusion matrices and ROC curves help researchers identify exactly where the model succeeds or needs improvement.
+- Data Visualization: Transforms dry performance numbers into intuitive charts and graphs for better insight.
 
-## Installation
-1. Install the required Python packages:
-   pip install -r requirements.txt
-2. Run the analysis scripts to generate performance reports and visualizations.
+## Usage for Researchers
+This repository is optimized for Python-based research. It includes scripts for model evaluation, metric calculation, and visualization generation out of the box.
