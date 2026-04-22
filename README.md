@@ -1,29 +1,18 @@
-# Text Simplification using Neural Language Models (NLM)
+# Neural Language Model for Text Simplification
 
-This project focuses on evaluating a Neural Language Model (T5-based) for
-text simplification tasks, distinguishing between **mild** and **strong**
-simplifications.
+This repository contains the evaluation and analysis framework for a neural language model (NLM) dedicated to automatic text simplification. It provides tools for measuring model performance across various linguistic and classification metrics.
 
 ## Features
-- Token-level accuracy evaluation
-- Binary classification (mild vs strong simplification)
-- ROC curve and AUC score
-- Confusion matrix visualization
-- Supports WikiLarge, ASSET, and TinySimplify datasets
+- Performance Metrics: Detailed calculation of token-level accuracy and classification scores.
+- Visualization Suite: Includes ROC-AUC curves and confusion matrix generation for error analysis.
+- Simplification Analysis: Tools for evaluating the semantic and structural changes made by the model.
 
-## Project Structure
-- `NLM.ipynb` – Training and experimentation notebook
-- `run_evaluation.py` – End-to-end evaluation script
-- `model_evaluation.py` – Detailed evaluation pipeline
-- `QUICK_START_EVALUATION.py` – Plug-and-play evaluation cells
+## Technology Stack
+- Python
+- Scikit-learn (Evaluation Metrics)
+- Matplotlib / Seaborn (Visualization)
 
-## Evaluation Metrics
-- Token-Level Accuracy
-- Classification Accuracy
-- ROC-AUC Score
-- Confusion Matrix
-
-## How to Run
-```bash
-pip install -r requirements.txt
-python run_evaluation.py
+## Installation
+1. Install the required Python packages:
+   pip install -r requirements.txt
+2. Run the analysis scripts to generate performance reports and visualizations.
